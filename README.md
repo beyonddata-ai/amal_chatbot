@@ -9,7 +9,7 @@ entrepreneurs throughout their entrepreneurial journey.
 ## Demo
 
 
-[amal_demo.webm](https://github.com/beyonddata-ai/amal_chatbot/assets/70507544/4334056e-c68b-400a-a48e-5b7a259db89d)
+[amal_demo](https://github.com/beyonddata-ai/amal_chatbot/assets/70507544/4334056e-c68b-400a-a48e-5b7a259db89d)
 
 
 # High Level Architecture
