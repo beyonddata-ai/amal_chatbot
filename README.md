@@ -13,7 +13,7 @@ entrepreneurs throughout their entrepreneurial journey.
 
 
 # High Level Architecture
-![alt text](https://github.com/beyonddata-ai/amal_chatbot/blob/main/amal_detailed.png?raw=true)
+![alt text](https://github.com/beyonddata-ai/amal_chatbot/blob/main/amal_detailed2.png?raw=true)
 
 # Local Setup
 * 1 - Clone the repository.
