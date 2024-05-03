@@ -14,7 +14,7 @@ coach whose major function is to provide business advice and emotional support t
 entrepreneurs throughout their entrepreneurial journey.
 
 ## Demo
-![alt text](https://github.com/beyonddata-ai/amal_chatbot/blob/main/amal.mp4?raw=true)
+[![IMAGE ALT TEXT HERE]](https://github.com/beyonddata-ai/amal_chatbot/blob/main/amal.mp4?raw=true)
 
 # High Level Architecture
 ![alt text](https://github.com/beyonddata-ai/amal_chatbot/blob/main/amal.png?raw=true)
