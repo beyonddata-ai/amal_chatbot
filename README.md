@@ -1,13 +1,20 @@
-# Amal Chatbot 
-Amal is assistant in your enterpreneurship journey. 
-Such as:
-* It helps you refine your rough ideas.
-* How to design the business idea.
-* How to implement the business idea.
-* How to attract target customers.
-* How to expand your business.
-* How to retain your presence in the market.
-In short, it helps you in every aspect of your business life cycle.
+# 2024 AI Challenge - Amal
+# Amal
+## Table of contents
+* [Introduction] (#introduction)
+* [Demo] (#demo)
+* [Architecture] (#architecture)
+* [Features] (#features)
+* [Technologies] (#technologies)
+* [Setup] (#setup)
+
+## Introduction
+AMAL - “Automated Mentor for Aspiring to Leaders” is envisioned as a GPT style business
+coach whose major function is to provide business advice and emotional support to women
+entrepreneurs throughout their entrepreneurial journey.
+
+## Demo
+![alt text](https://github.com/beyonddata-ai/amal_chatbot/blob/main/amal.mp4?raw=true)
 
 # High Level Architecture
 ![alt text](https://github.com/beyonddata-ai/amal_chatbot/blob/main/amal.png?raw=true)
