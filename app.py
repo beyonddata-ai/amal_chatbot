@@ -48,22 +48,22 @@ def translate_text(target, text):
     return result
 
 #llm=Gemini
-GOOGLE_API_KEY = api_keys["GOOGLE_API_KEY"]
-genai.configure(api_key=GOOGLE_API_KEY)
-os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
-embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-model = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.6)
-data_dir = '/media/beyond-data/hdd/credit-rating/chatbot/vector-db/gemini'
-db = FAISS.load_local(data_dir,embeddings)
-retriever = db.as_retriever()
-
-#llm=Gpt3.5 or 4
-# os.environ["OPENAI_API_KEY"] = api_keys["OPENAI_API_KEY"]
-# model = ChatOpenAI(model_name="gpt-4-0125-preview", temperature=0.3)
-# embeddings = OpenAIEmbeddings(model='text-embedding-3-small')
-# data_dir = './openai-embeddings-small'
+# GOOGLE_API_KEY = api_keys["GOOGLE_API_KEY"]
+# genai.configure(api_key=GOOGLE_API_KEY)
+# os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
+# embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+# model = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.6)
+# data_dir = '/media/beyond-data/hdd/credit-rating/chatbot/vector-db/gemini'
 # db = FAISS.load_local(data_dir,embeddings)
 # retriever = db.as_retriever()
+
+#llm=Gpt3.5 or 4
+os.environ["OPENAI_API_KEY"] = api_keys["OPENAI_API_KEY"]
+model = ChatOpenAI(model_name="gpt-4-0125-preview", temperature=0.3)
+embeddings = OpenAIEmbeddings(model='text-embedding-3-small')
+data_dir = './openai-embeddings-small'
+db = FAISS.load_local(data_dir,embeddings)
+retriever = db.as_retriever()
 
 #Prompt for creating standalone question from chat history and current message
 contextualize_q_system_prompt= """Given a chat history and the latest user question, follow these steps:
